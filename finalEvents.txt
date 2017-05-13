@@ -1,0 +1,11 @@
+CREATE TABLE finalEvents (
+    eventName varchar(30),
+    address varchar(60),
+    eventDate date,
+    startTime time,
+    latitude decimal(14, 10),
+    longitude decimal(14, 10),
+    Pass varchar(15),
+    Email varchar(30),
+    PRIMARY KEY(eventName)
+)

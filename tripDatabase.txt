@@ -1,0 +1,11 @@
+CREATE TABLE travelers (
+    fName varchar(20),
+    lName varchar(20),
+    event varchar(30),
+    depTime time,
+    oLat decimal(14, 10),
+    oLon decimal(14, 10),
+    Hascar varchar(3),
+    Seats int,
+    Email varchar(30)
+)
